@@ -6,6 +6,8 @@
   "zoom:reset": "ctrl+0",
   "zoom:in": "ctrl+=",
   "zoom:out": "ctrl+-",
+  "pane:zoomIn": "ctrl+shift+=",
+  "pane:zoomOut": "ctrl+shift+-",
   "window:new": "ctrl+shift+n",
   "window:minimize": "ctrl+shift+m",
   "window:zoom": "ctrl+shift+alt+m",
