@@ -27,6 +27,8 @@ const _extractDefault = function(cfg) {
 
 // init config
 const _init = function(cfg) {
+  console.log("WWOWOWOWOWOW");
+  console.log(cfg.defaultCfg);
   const script = _syntaxValidation(cfg.userCfg);
   if (script) {
     const _cfg = _extract(script);

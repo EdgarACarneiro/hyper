@@ -95,6 +95,11 @@ module.exports = {
     // for environment variables
     env: {},
 
+    // for setting zoom properties
+    // If true, zoom ir global
+    // If false, zoom is for the focused pane
+    globalZoom: true,
+
     // set to `false` for no bell
     bell: 'SOUND',
 
