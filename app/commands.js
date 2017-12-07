@@ -23,6 +23,12 @@ const commands = {
   'pane:close': focusedWindow => {
     focusedWindow && focusedWindow.rpc.emit('termgroup close req');
   },
+  'pane:zoomIn': focusedWindow => {
+    focusedWindow && focusedWindow.rpc.emit('session increase fontSize req');
+  },
+  'pane:zoomOut': focusedWindow => {
+    focusedWindow && focusedWindow.rpc.emit('session decrease fontSize req');
+  },
   'window:preferences': () => {
     openConfig();
   },

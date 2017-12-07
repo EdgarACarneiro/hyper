@@ -30,6 +30,8 @@
   "pane:splitVertical": "command+d",
   "pane:splitHorizontal": "command+shift+d",
   "pane:close": "command+w",
+  "pane:zoomIn": "ctrl+shift+plus",
+  "pane:zoomOut": "ctrl+shift+-",
   "editor:undo": "command+z",
   "editor:redo": "command+y",
   "editor:cut": "command+x",
