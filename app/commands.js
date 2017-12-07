@@ -67,6 +67,12 @@ const commands = {
   'zoom:out': focusedWindow => {
     focusedWindow && focusedWindow.rpc.emit('decrease fontSize req');
   },
+  'pane:zoomIn': focusedWindow => {
+    focusedWindow && focusedWindow.rpc.emit('increase fontSize pane req');
+  },
+  'pane:zoomOut': focusedWindow => {
+    focusedWindow && focusedWindow.rpc.emit('decrease fontSize pane req');
+  },
   'tab:prev': focusedWindow => {
     focusedWindow && focusedWindow.rpc.emit('move left req');
   },
